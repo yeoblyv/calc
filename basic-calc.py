@@ -33,7 +33,7 @@ def power(x,y):
 	"""
 	return x**y
 
-<<<<<<< HEAD
+
 def square(x):
 	"""
 	This function calculates the square of a number and returns the result.
