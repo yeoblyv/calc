@@ -9,4 +9,26 @@ def subtract(x,y):
 	pass
 
 def divide(x,y):
-	return x/y
+	"""
+	This function divides two numbers and returns the result.
+	It takes two parameters, x and y.
+	
+	Inputs:
+		x : int or float
+		y : int or float
+
+	Returns:
+		float : The result of dividing x by y.
+	"""
+	return print(f"the result of {x}/{y} is {x/y}")
+
+def power(x,y):
+	"""
+	This function raises a number to the power of another number and returns the result.
+	It takes two parameters, x and y.
+	
+	Inputs:
+		x : int or float
+		y : int or float
+	"""
+	return x**y
