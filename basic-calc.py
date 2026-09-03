@@ -33,6 +33,7 @@ def power(x,y):
 	"""
 	return x**y
 
+<<<<<<< HEAD
 def square(x):
 	"""
 	This function calculates the square of a number and returns the result.
@@ -42,3 +43,19 @@ def square(x):
 		x : int or float
 	"""
 	return x**2
+=======
+def factorial(n):
+	"""
+	This function calculates the factorial of a number and returns the result.
+	It takes one parameter, n.
+	
+	Inputs:
+		n : int
+		Returns:
+		int : The factorial of n.
+	"""
+	if n == 0:
+		return 1
+	else:
+		return n * factorial(n-1)	
+>>>>>>> db86785a127d4e217f219e8fb6f8a0da53ece864
