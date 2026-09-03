@@ -6,7 +6,8 @@ def multiply(x,y):
 	pass
 
 def subtract(x,y):
-	pass
+	return x-y
+	# added by YeO
 
 def divide(x,y):
 	return x/y
