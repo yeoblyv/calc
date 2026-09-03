@@ -14,8 +14,10 @@ def divide(x,y):
 	It takes two parameters, x and y.
 	
 	Inputs:
-		x
-		y
-	
+		x : int or float
+		y : int or float
+
+	Returns:
+		float : The result of dividing x by y.
 	"""
-	return x/y
+	return print(f"the result of {x}/{y} is {x/y}")
