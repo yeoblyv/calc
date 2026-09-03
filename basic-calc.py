@@ -42,3 +42,18 @@ def square(x):
 		x : int or float
 	"""
 	return x**2
+
+def factorial(n):
+	"""
+	This function calculates the factorial of a number and returns the result.
+	It takes one parameter, n.
+	
+	Inputs:
+		n : int
+		Returns:
+		int : The factorial of n.
+	"""
+	if n == 0:
+		return 1
+	else:
+		return n * factorial(n-1)
