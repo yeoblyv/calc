@@ -32,3 +32,13 @@ def power(x,y):
 		y : int or float
 	"""
 	return x**y
+
+def square(x):
+	"""
+	This function calculates the square of a number and returns the result.
+	It takes one parameter, x.
+	
+	Inputs:
+		x : int or float
+	"""
+	return x**2
