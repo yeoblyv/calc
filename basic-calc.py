@@ -32,3 +32,18 @@ def power(x,y):
 		y : int or float
 	"""
 	return x**y
+
+def factorial(n):
+	"""
+	This function calculates the factorial of a number and returns the result.
+	It takes one parameter, n.
+	
+	Inputs:
+		n : int
+		Returns:
+		int : The factorial of n.
+	"""
+	if n == 0:
+		return 1
+	else:
+		return n * factorial(n-1)	
